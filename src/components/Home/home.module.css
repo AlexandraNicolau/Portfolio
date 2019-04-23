@@ -1,0 +1,117 @@
+.mainContainer {
+  display: flex;
+  height: 100%;
+}
+
+.columnLeft {
+  flex-direction: column;
+  flex: 1;
+  background-color: #132c39;
+  color: white;
+  padding: 80px;
+}
+
+.title {
+  font-family: "Satisfy", cursive;
+  font-weight: normal;
+  font-size: 5em;
+  margin-bottom: 120px;
+}
+.columnRight {
+  flex-direction: column;
+  flex: 1;
+}
+
+.projects {
+  height: 50%;
+  background: url("/images/keyboard.jpg");
+  background-size: cover;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+}
+
+.projectsLink {
+  margin-bottom: 35px;
+  color: #122b38;
+  font-size: 35px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.contactInfo {
+  height: 50%;
+  background-color: #ff6201;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+  text-align: center;
+}
+
+.contactLink {
+  margin-bottom: 35px;
+  color: #122b38;
+  font-size: 35px;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
+
+.contact {
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 60px;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+}
+.icons img {
+  height: 40px;
+  width: 40px;
+}
+.icons a {
+  margin-right: 80px;
+}
+.icons a:last-child {
+  margin-right: 0;
+}
+/* .pic1 {
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-content: center;
+}
+
+.pic2 {
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-content: center;
+  margin-left: 40px;
+}
+
+.pic3 {
+  height: 40px;
+  width: 40px;
+}
+
+.pic4 {
+  height: 40px;
+  width: 40px;
+} */
+
+/* .icons {
+  height: 40px;
+  width: 40px;
+}
+.icon1 {
+  height: 40px;
+  width: 40px;
+}
+.icon2 {
+  height: 40px;
+  width: 40px;
+} */
